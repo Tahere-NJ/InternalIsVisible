@@ -29,7 +29,7 @@ namespace InternalIsVisible.Tests
             var message = InternalCalculator.SecretMessage;
 
             // Assert
-            Assert.Equal("This is normally hidden!", message);
+            Assert.Equal("Some Hidden things!", message);
         }
     }
 }
