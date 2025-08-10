@@ -10,6 +10,6 @@ namespace InternalIsVisible.Core
     {
         internal int Add(int a, int b) => a + b;
 
-        internal static string SecretMessage => "This is normally hidden!";
+        internal static string SecretMessage => "Some Hidden things!";
     }
 }
